@@ -1,0 +1,84 @@
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
+
+    *,
+    *::before,
+    *::after{
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .main-header{
+        color: #3B59FF;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+        /* position: absolute;
+        top: 64px;
+        left: 104px; */
+    }
+    .content{
+            text-align: center;
+    }
+    .header-content{
+        font-family: 'Work Sans';
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #011638;
+    }
+    .info{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .email{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        display: flex;
+        justify-items: left;
+        padding-left: 30%;
+        margin-top: 1em;
+    }
+    #email{
+        color: #4f4f4f;
+        border: 0;
+        background-color: #F7F9FB;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        margin-left: 30%;
+        background: #f7f9fb;
+        /* border-radius: 3px; */
+        padding: 1em;
+        margin-top: 1em;
+    }
+    .button{
+        width: 40%;
+        margin-left: 0%;
+        padding: 1em;
+        border: 0;
+        background: #3B59FF;
+        margin-top: 5em;
+    }
+    .button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .index{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #c7c7c7;
+    }
+    .index a{
+        text-decoration: underline;
+        color: #00ae11;
+    }
+    
+    
