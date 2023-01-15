@@ -12,8 +12,10 @@
     }
     
     .content{
-        max-width: 600px;
         margin: 0 auto;
+        margin-top: 80px;
+        max-width: 400px;
+        
         position: relative;
     }
 
@@ -22,10 +24,17 @@
         font-style: normal;
         font-weight: 600;
         font-size: 2rem;
-        line-height: 28px;
         text-align: center;
         color: #3B59FF;
 
+    }
+    .info{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        padding-left: 2rem;
     }
     .content .form{
         width:100%;
@@ -61,21 +70,13 @@
         font-family: "Work Sans";
     }
 
-    .content .form .form-group.password{
-        position: relative;
-    }
-    .content .form .form-group .password i{
-       position: absolute;
-       top: 50%;
-       right: 20px;
-       transform: translateY(50%);
-    }
+   
     .button{
         background: #3B59FF;
         font-size: 23px;
         border-radius: 3px;
         width: 100%;
-        padding: 20px 10px;
+        padding: 10px 0px;
         outline: 0;
         border: 0;
         cursor: pointer;
